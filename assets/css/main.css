@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f2f2f2;
+  --background-color: #212529;
   --surface-color: #ffffff;
 }
 
@@ -330,7 +330,7 @@ h6 {
     color: var(--nav-color);
     font-size: 15px;
     padding: 0 2px;
-    font-family: var(--nav-font);
+    font-family: "Ibm plex sans";
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -791,8 +791,8 @@ section,
   color: var(--heading-color);
   margin: 10px 0 0 0;
   font-size: 48px;
-  font-weight: 300;
-  font-family: "Newsreader";
+  font-weight: 400;
+  font-family: "IBM plex serif";
 }
 
 .section-title p .description-title {
@@ -814,9 +814,9 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 500;
-  font-family: "Newsreader";
+  font-family: "IBM plex serif";
 }
 
 .hero p {
@@ -858,7 +858,7 @@ section,
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 .hero .btn-watch-video:hover {
@@ -974,7 +974,7 @@ section,
 
 .why-us .why-box h3 {
   color: var(--contrast-color);
-  font-family: "Newsreader";
+  font-family: "Ibm plex serif";
   font-weight: 500;
   font-size: 34px;
   margin-bottom: 30px;
@@ -1215,19 +1215,21 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 1px;
+  font-weight: medium;
   margin: 10px 0 5px 0;
+  font-family: "Ibm plex serif";
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0 0 10px 0;
+  font-family: "Ibm plex serif";
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #212529;
   margin: 0 1px;
 }
 
@@ -1253,7 +1255,8 @@ section,
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-style: regular;
+  font-family: "Ibm plex sans";
 }
 
 .testimonials .swiper-wrapper {
@@ -1350,11 +1353,11 @@ section,
 # Chefs Section
 --------------------------------------------------------------*/
 .chefs .team-member {
-  background-color: var(--surface-color);
+  background-color: #ffffff;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: 0.3s;
 }
 
@@ -1414,7 +1417,7 @@ section,
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  font-family: var(--default-font);
+  font-family: "Ibm plex serif";
 }
 
 .chefs .team-member .member-info span {
@@ -1422,10 +1425,11 @@ section,
   font-size: 14px;
   font-weight: 400;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
+  font-family: "Ibm plex sans";
 }
 
 .chefs .team-member .member-info p {
-  font-style: italic;
+  font-style: regular;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
@@ -1475,9 +1479,9 @@ section,
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
-  color: var(--default-color);
+  color: #37373f;
   background-color: color-mix(in srgb, var(--background-color), transparent 20%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .book-a-table .php-email-form input[type=text]:focus,
@@ -1504,7 +1508,7 @@ section,
   border: 0;
   padding: 14px 60px;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
@@ -1516,6 +1520,7 @@ section,
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
+  font-family: "Ibm plex sans";
 }
 
 .gallery .swiper-wrapper {
